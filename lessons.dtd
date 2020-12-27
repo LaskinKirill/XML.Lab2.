@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>	
+<!ELEMENT lessons (item+)>
+<!ELEMENT item (namecourse, teacher, lessonstime, DateStart, DateFinish)>
+<!ELEMENT namecourse (#PCDATA)>
+<!ELEMENT teacher (#PCDATA)>
+<!ELEMENT lessonstime (#PCDATA)>
+<!ELEMENT DateStart (#PCDATA)>
+<!ELEMENT DateFinish (#PCDATA)>
